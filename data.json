@@ -1,0 +1,52 @@
+{
+    "Comic": [
+        {
+            "comic_id": 1,
+            "title": "Скотт Пиллигрим 1 том",
+            "genre": "комедия",
+            "description": "история 23-летнего парня, которому нужно победить 7 злых бывшей своей новой девушки",
+            "status": "Опубликован"
+        }
+    ],
+    "Author": [
+        {
+            "author_id": 1,
+            "name": "Брайан Ли О'Мэлли",
+            "email": "braian@icloud.com"
+        }
+    ],
+    "Comic_Author": [
+        {
+            "comic_id": 1,
+            "author_id": 1
+        }
+    ],
+    "Chapter": [
+        {
+            "chapter_id": 1,
+            "comic_id": 1,
+            "title": "1",
+            "chapter_number": 1,
+            "status": "Ожидает модерации"
+        }
+    ],
+    "File": [
+        {
+            "file_id": 1,
+            "chapter_id": 1,
+            "format": "png",
+            "file_name": "1.png",
+            "file_size": 12.0
+        }
+    ],
+    "Moderation": [
+        {
+            "moderation_id": 1,
+            "comic_id": 1,
+            "moderator_name": "Ольга",
+            "result": "Одобрено",
+            "comment": "все хорошо"
+        }
+    ],
+    "Statistics": []
+}
